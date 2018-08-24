@@ -1,0 +1,26 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "ui.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Combined Shape": {
+      "__uuid__": "4ebf8821-322f-4726-84f7-e01c3eaae036"
+    },
+    "btn_again": {
+      "__uuid__": "0a751275-904d-44c9-9a84-79a0e3742a04"
+    },
+    "direction": {
+      "__uuid__": "8ec8cc01-3877-48e1-8830-b3b3f7d67150"
+    },
+    "rabbit": {
+      "__uuid__": "8061c320-c27e-4736-b7b1-5bb2bf4a0951"
+    },
+    "stone": {
+      "__uuid__": "c0ad489f-20be-4ee9-af8e-a4cd297630e8"
+    },
+    "wolf": {
+      "__uuid__": "490c9fb7-2a16-48b9-8acc-a1b52d4ac270"
+    }
+  }
+}

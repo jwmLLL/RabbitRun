@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Combined Shape",
+    "texture": "b2f48a73-5907-45fd-9d4a-393479ccc846",
+    "atlas": "a55c6f74-bd50-467c-80c8-0732a364a700",
+    "rect": [
+      93,
+      0,
+      275,
+      98
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      275,
+      98
+    ]
+  }
+}

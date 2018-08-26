@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c10d09c-988a-4480-8a56-305e5c19151a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/util/Config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scene/mainScene.fire" afterPath="$PROJECT_DIR$/assets/scene/mainScene.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/GameControl.js" afterPath="$PROJECT_DIR$/assets/scripts/GameControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/view/BgView.js" afterPath="$PROJECT_DIR$/assets/scripts/view/BgView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/42/420e09ec-f565-42cf-9ffc-4bae0c42e9bc.json" afterPath="$PROJECT_DIR$/library/imports/42/420e09ec-f565-42cf-9ffc-4bae0c42e9bc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/78/7866a833-8800-4f83-9376-a56c960c6e1d.js" afterPath="$PROJECT_DIR$/library/imports/78/7866a833-8800-4f83-9376-a56c960c6e1d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/78/7866a833-8800-4f83-9376-a56c960c6e1d.js.map" afterPath="$PROJECT_DIR$/library/imports/78/7866a833-8800-4f83-9376-a56c960c6e1d.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/d4/d4bf5974-7440-4329-af2d-9228b58a5464.js" afterPath="$PROJECT_DIR$/library/imports/d4/d4bf5974-7440-4329-af2d-9228b58a5464.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/imports/d4/d4bf5974-7440-4329-af2d-9228b58a5464.js.map" afterPath="$PROJECT_DIR$/library/imports/d4/d4bf5974-7440-4329-af2d-9228b58a5464.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/library/uuid-to-mtime.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/layout.windows.json" afterPath="$PROJECT_DIR$/local/layout.windows.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/logs/project.log" afterPath="$PROJECT_DIR$/local/logs/project.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/BackupAssets/assets/scene/mainScene.fire" afterPath="$PROJECT_DIR$/temp/BackupAssets/assets/scene/mainScene.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/GameControl.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/GameControl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/GameControl.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/GameControl.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/view/BgView.js" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/view/BgView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/view/BgView.js.map" afterPath="$PROJECT_DIR$/temp/quick-scripts/assets/scripts/view/BgView.js.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +33,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameControl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scripts/GameControl.js">
+      <file leaf-file-name="creator.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/creator.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="267">
+              <caret line="1829" column="8" lean-forward="false" selection-start-line="1829" selection-start-column="8" selection-end-line="1829" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BgView.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameControl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/GameControl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BgView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scripts/view/BgView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="610">
+              <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/view/Player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilTool.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/util/UtilTool.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/util/Config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -39,14 +95,29 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>抗锯齿</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/scripts/GameControl.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/util/UtilTool.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/util/Config.js" />
         <option value="$PROJECT_DIR$/assets/scripts/view/BgView.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/view/Player.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/GameControl.js" />
       </list>
     </option>
   </component>
@@ -107,6 +178,13 @@
               <item name="RabbitRun" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitRun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitRun" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,12 +235,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535008580543</updated>
       <workItem from="1535008581736" duration="17000" />
-      <workItem from="1535009429467" duration="4547000" />
+      <workItem from="1535009429467" duration="14273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4564000" />
+    <option name="totallyTimeSpent" value="14290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -218,14 +296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -336,18 +406,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/GameControl.js">
+    <entry file="file://$PROJECT_DIR$/assets/scripts/util/UtilTool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/util/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/view/BgView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="610">
+          <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="1829" column="8" lean-forward="false" selection-start-line="1829" selection-start-column="8" selection-end-line="1829" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/view/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/GameControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
       </provider>

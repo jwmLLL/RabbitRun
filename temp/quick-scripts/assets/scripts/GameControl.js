@@ -23,6 +23,10 @@ cc.Class({
         playerNode: {
             default: null,
             type: cc.Node
+        },
+        gameOver: {
+            default: null,
+            type: cc.Node
         }
 
     },
@@ -31,8 +35,13 @@ cc.Class({
         this.bgMove = this.bgNode.getComponent("BgView");
         this.player = this.playerNode.getComponent("Player");
 
+        this.gameOver.active = false;
+
         _UtilTool2.default.log("this.player.rabbit.getBoundingBoxToWorld()   " + this.player.rabbit.getBoundingBoxToWorld());
         _UtilTool2.default.log("this.bgMove.propArr[i][j]   " + this.bgMove.propArr[0][4].getBoundingBoxToWorld());
+    },
+    startUpdate: function startUpdate() {
+        this.schedule(this.updateCollision.bind(this), 0.4);
     },
 
 
@@ -46,7 +55,6 @@ cc.Class({
                 this.bgMove.startMove(2);
                 break;
         }
-
         this.player.rabbitJump(1);
 
         // return new Promise(function (resolve,reject) {
@@ -58,7 +66,7 @@ cc.Class({
         // })
     },
 
-    update: function update(dt) {
+    updateCollision: function updateCollision() {
         var len1 = this.bgMove.propArr.length;
         var len2 = this.bgMove.propArr[0].length;
 
@@ -84,13 +92,14 @@ cc.Class({
                 break;
             case PropEnum.rottenWood:
                 _UtilTool2.default.log("碰到朽木");
-                // this.unscheduleUpdate(this);
+                this.unscheduleAllCallbacks();
+                this.gameOver.active = true;
                 break;
             case PropEnum.null:
                 _UtilTool2.default.log("碰到空的");
-                // this.unscheduleUpdate(this);
+                this.unscheduleAllCallbacks();
+                this.gameOver.active = true;
                 break;
-
         }
     }
 });

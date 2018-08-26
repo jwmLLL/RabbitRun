@@ -1,4 +1,5 @@
 import UtilTool from "./util/UtilTool";
+
 const PropEnum = require("PropEnum");
 
 cc.Class({
@@ -13,6 +14,10 @@ cc.Class({
             default: null,
             type: cc.Node
         },
+        gameOver: {
+            default: null,
+            type: cc.Node
+        }
 
     },
 
@@ -20,10 +25,17 @@ cc.Class({
         this.bgMove = this.bgNode.getComponent("BgView");
         this.player = this.playerNode.getComponent("Player");
 
+        this.gameOver.active = false;
+
         UtilTool.log("this.player.rabbit.getBoundingBoxToWorld()   " + this.player.rabbit.getBoundingBoxToWorld());
         UtilTool.log("this.bgMove.propArr[i][j]   " + this.bgMove.propArr[0][4].getBoundingBoxToWorld());
 
     },
+
+    startUpdate() {
+        this.schedule(this.updateCollision.bind(this), 0.4);
+    },
+
 
     btnClickEvent: function (event, customData) {
         console.log(" GameControl customData : " + customData);
@@ -35,7 +47,6 @@ cc.Class({
                 this.bgMove.startMove(2);
                 break;
         }
-
         this.player.rabbitJump(1);
 
 
@@ -48,7 +59,7 @@ cc.Class({
         // })
     },
 
-    update(dt) {
+    updateCollision() {
         let len1 = this.bgMove.propArr.length;
         let len2 = this.bgMove.propArr[0].length;
 
@@ -65,7 +76,7 @@ cc.Class({
 
     judgeCollision(item) {
         let tag = parseInt(item.name);
-        UtilTool.log("PropEnum.stone  "+PropEnum.stone)
+        UtilTool.log("PropEnum.stone  " + PropEnum.stone)
         switch (tag) {
             case PropEnum.stone:
 
@@ -74,15 +85,15 @@ cc.Class({
 
                 break;
             case PropEnum.rottenWood:
-                UtilTool.log("碰到朽木" );
-                // this.unscheduleUpdate(this);
+                UtilTool.log("碰到朽木");
+                this.unscheduleAllCallbacks();
+                this.gameOver.active = true;
                 break;
             case PropEnum.null:
-                UtilTool.log("碰到空的" );
-                // this.unscheduleUpdate(this);
+                UtilTool.log("碰到空的");
+                this.unscheduleAllCallbacks();
+                this.gameOver.active = true;
                 break;
-
-
         }
     }
 });

@@ -40,7 +40,7 @@
     "relativePath": "scene"
   },
   "2a5ea461-ad81-493f-a4c0-c697eb59cbc7": {
-    "asset": 1535259903227,
+    "asset": 1535270795528,
     "meta": 1535006749295,
     "relativePath": "scripts"
   },
@@ -65,12 +65,12 @@
     "relativePath": "resources/bigImg"
   },
   "420e09ec-f565-42cf-9ffc-4bae0c42e9bc": {
-    "asset": 1535260164976,
-    "meta": 1535260164983,
+    "asset": 1535271323600,
+    "meta": 1535271323607,
     "relativePath": "scene/mainScene.fire"
   },
   "c618cb90-b1fe-4fb9-a56e-d4d93c2d6a94": {
-    "asset": 1535257630844,
+    "asset": 1535269731323,
     "meta": 1535090017347,
     "relativePath": "scripts/view"
   },
@@ -350,7 +350,7 @@
     "relativePath": "animation/RabbitJumpAni.anim"
   },
   "90f2f13c-c197-42f7-bfaf-a453f1082225": {
-    "asset": 1535255626909,
+    "asset": 1535261364302,
     "meta": 1535255606054,
     "relativePath": "scripts/view/data"
   },
@@ -369,9 +369,19 @@
     "meta": 1535261368380,
     "relativePath": "scripts/view/data/PropEnum.js"
   },
+  "6d8d9fab-8ecf-4ec2-a40a-872de7536795": {
+    "asset": 1535266490267,
+    "meta": 1535266819739,
+    "relativePath": "scripts/view/StartGame.js"
+  },
+  "213e4567-eb79-421a-99ae-50113d229b7a": {
+    "asset": 1535269731322,
+    "meta": 1535269732761,
+    "relativePath": "scripts/view/GameOver.js"
+  },
   "7866a833-8800-4f83-9376-a56c960c6e1d": {
-    "asset": 1535264186603,
-    "meta": 1535264187422,
+    "asset": 1535270795526,
+    "meta": 1535270797336,
     "relativePath": "scripts/GameControl.js"
   }
 }

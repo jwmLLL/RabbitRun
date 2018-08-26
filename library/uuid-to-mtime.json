@@ -25,7 +25,7 @@
     "relativePath": "prefab"
   },
   "9705292e-4d96-4b1e-a587-05eb492f9e3a": {
-    "asset": 1535248687898,
+    "asset": 1535249444251,
     "meta": 1535006519834,
     "relativePath": "prefabs"
   },
@@ -40,7 +40,7 @@
     "relativePath": "scene"
   },
   "2a5ea461-ad81-493f-a4c0-c697eb59cbc7": {
-    "asset": 1535097434496,
+    "asset": 1535259903227,
     "meta": 1535006749295,
     "relativePath": "scripts"
   },
@@ -65,17 +65,17 @@
     "relativePath": "resources/bigImg"
   },
   "420e09ec-f565-42cf-9ffc-4bae0c42e9bc": {
-    "asset": 1535250991679,
-    "meta": 1535250991687,
+    "asset": 1535260164976,
+    "meta": 1535260164983,
     "relativePath": "scene/mainScene.fire"
   },
   "c618cb90-b1fe-4fb9-a56e-d4d93c2d6a94": {
-    "asset": 1535249062981,
+    "asset": 1535257630844,
     "meta": 1535090017347,
     "relativePath": "scripts/view"
   },
   "ad44b222-9d43-4e96-921e-da762191b96d": {
-    "asset": 1535099846662,
+    "asset": 1535250310014,
     "meta": 1535094460260,
     "relativePath": "scripts/util"
   },
@@ -315,18 +315,18 @@
     "relativePath": "resources/bigImg/bg2.png"
   },
   "3607f0b4-ab93-44a9-954c-e3b0df818b22": {
-    "asset": 1535249524618,
-    "meta": 1535249524623,
+    "asset": 1535252508210,
+    "meta": 1535252508216,
     "relativePath": "prefabs/stonePrefab.prefab"
   },
   "7047ac09-e9ca-46eb-ae04-d1e006cbddec": {
-    "asset": 1535249535838,
-    "meta": 1535249535845,
+    "asset": 1535252480866,
+    "meta": 1535252480873,
     "relativePath": "prefabs/rottenWoodPrefab.prefab"
   },
   "90a36301-a9ed-4e86-98a5-0026cc18d84d": {
-    "asset": 1535249511098,
-    "meta": 1535249511103,
+    "asset": 1535252525232,
+    "meta": 1535252525237,
     "relativePath": "prefabs/woodPrefab.prefab"
   },
   "22c038b6-ed51-4482-9af4-537e16dd43a5": {
@@ -339,13 +339,8 @@
     "meta": 1535250316823,
     "relativePath": "scripts/util/Config.js"
   },
-  "d4bf5974-7440-4329-af2d-9228b58a5464": {
-    "asset": 1535250626435,
-    "meta": 1535250633561,
-    "relativePath": "scripts/view/BgView.js"
-  },
   "bd8e25b7-0915-4099-8eb4-e08dea3d7b25": {
-    "asset": 1535250811906,
+    "asset": 1535250835256,
     "meta": 1535250811907,
     "relativePath": "animation"
   },
@@ -354,14 +349,29 @@
     "meta": 1535250940661,
     "relativePath": "animation/RabbitJumpAni.anim"
   },
+  "90f2f13c-c197-42f7-bfaf-a453f1082225": {
+    "asset": 1535255626909,
+    "meta": 1535255606054,
+    "relativePath": "scripts/view/data"
+  },
+  "d4bf5974-7440-4329-af2d-9228b58a5464": {
+    "asset": 1535257630842,
+    "meta": 1535257635239,
+    "relativePath": "scripts/view/BgView.js"
+  },
   "1001d882-3db9-4e33-badd-73784f5c77a9": {
-    "asset": 1535251202891,
-    "meta": 1535251216212,
+    "asset": 1535261211399,
+    "meta": 1535261212685,
     "relativePath": "scripts/view/Player.js"
   },
+  "626b2615-6aa5-4aae-b7a8-59be9e5bb16e": {
+    "asset": 1535261364300,
+    "meta": 1535261368380,
+    "relativePath": "scripts/view/data/PropEnum.js"
+  },
   "7866a833-8800-4f83-9376-a56c960c6e1d": {
-    "asset": 1535251283393,
-    "meta": 1535251285667,
+    "asset": 1535264186603,
+    "meta": 1535264187422,
     "relativePath": "scripts/GameControl.js"
   }
 }

@@ -11,11 +11,11 @@ cc.Class({
     },
 
 
-
     start () {
         this.anim = this.rabbit.getComponent(cc.Animation)
-
     },
+
+
     rabbitJump(setp){
         this.anim.play("RabbitJumpAni");
     }

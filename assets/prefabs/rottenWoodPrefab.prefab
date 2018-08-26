@@ -71,7 +71,7 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_localZOrder": 55,
+    "_localZOrder": 18,
     "groupIndex": 0,
     "_id": ""
   },
@@ -103,8 +103,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 50
+      "width": 40,
+      "height": 30
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -114,7 +114,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": -30,
       "z": 0
     },
     "_scale": {
@@ -151,8 +151,8 @@
     "_useOriginalSize": false,
     "_string": "朽木",
     "_N$string": "朽木",
-    "_fontSize": 50,
-    "_lineHeight": 50,
+    "_fontSize": 20,
+    "_lineHeight": 30,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -161,7 +161,7 @@
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
-    "_id": "9aabh8A2dALZR4wXwqQiZA"
+    "_id": "d8sF508JdATJLlh13a4fmL"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -202,7 +202,7 @@
     "_atlas": {
       "__uuid__": "a55c6f74-bd50-467c-80c8-0732a364a700"
     },
-    "_id": "eeEwBX6C5Fv5B2Pn775nRk"
+    "_id": "21PxCsch5Mm4Ggwmxcq7nO"
   },
   {
     "__type__": "cc.PrefabInfo",

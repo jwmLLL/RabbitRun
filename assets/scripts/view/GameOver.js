@@ -1,3 +1,4 @@
+const Config = require("Config");
 cc.Class({
     extends: cc.Component,
 
@@ -14,6 +15,7 @@ cc.Class({
 
 
     start() {
+
 
     },
 

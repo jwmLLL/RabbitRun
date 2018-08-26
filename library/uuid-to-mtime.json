@@ -65,8 +65,8 @@
     "relativePath": "resources/bigImg"
   },
   "420e09ec-f565-42cf-9ffc-4bae0c42e9bc": {
-    "asset": 1535271323600,
-    "meta": 1535271323607,
+    "asset": 1535273421771,
+    "meta": 1535273421778,
     "relativePath": "scene/mainScene.fire"
   },
   "c618cb90-b1fe-4fb9-a56e-d4d93c2d6a94": {
@@ -334,11 +334,6 @@
     "meta": 1535249539526,
     "relativePath": "prefabs/nullPrefab.prefab"
   },
-  "042c9c7e-1681-4f82-824a-48e5034e2578": {
-    "asset": 1535250310012,
-    "meta": 1535250316823,
-    "relativePath": "scripts/util/Config.js"
-  },
   "bd8e25b7-0915-4099-8eb4-e08dea3d7b25": {
     "asset": 1535250835256,
     "meta": 1535250811907,
@@ -353,11 +348,6 @@
     "asset": 1535261364302,
     "meta": 1535255606054,
     "relativePath": "scripts/view/data"
-  },
-  "d4bf5974-7440-4329-af2d-9228b58a5464": {
-    "asset": 1535257630842,
-    "meta": 1535257635239,
-    "relativePath": "scripts/view/BgView.js"
   },
   "1001d882-3db9-4e33-badd-73784f5c77a9": {
     "asset": 1535261211399,
@@ -374,14 +364,24 @@
     "meta": 1535266819739,
     "relativePath": "scripts/view/StartGame.js"
   },
+  "042c9c7e-1681-4f82-824a-48e5034e2578": {
+    "asset": 1535272710309,
+    "meta": 1535272929187,
+    "relativePath": "scripts/util/Config.js"
+  },
   "213e4567-eb79-421a-99ae-50113d229b7a": {
-    "asset": 1535269731322,
-    "meta": 1535269732761,
+    "asset": 1535273376285,
+    "meta": 1535273377861,
     "relativePath": "scripts/view/GameOver.js"
   },
   "7866a833-8800-4f83-9376-a56c960c6e1d": {
-    "asset": 1535270795526,
-    "meta": 1535270797336,
+    "asset": 1535273569799,
+    "meta": 1535273649047,
     "relativePath": "scripts/GameControl.js"
+  },
+  "d4bf5974-7440-4329-af2d-9228b58a5464": {
+    "asset": 1535273593259,
+    "meta": 1535273649048,
+    "relativePath": "scripts/view/BgView.js"
   }
 }

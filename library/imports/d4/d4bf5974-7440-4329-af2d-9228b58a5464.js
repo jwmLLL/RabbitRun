@@ -31,13 +31,13 @@ cc.Class({
     onLoad: function onLoad() {
         this.propLen = this.propPrefab.length;
         this.ranIndex = 0;
+        this.isStart = true;
     },
-    start: function start() {
-
+    start: function start() {},
+    initProp: function initProp() {
         this.addProp(this.background1, 0);
         this.addProp(this.background2, 1);
     },
-
 
     //开始移动背景  step  移动的步数
     startMove: function startMove(step) {

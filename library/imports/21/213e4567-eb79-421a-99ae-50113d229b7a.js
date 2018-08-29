@@ -4,6 +4,7 @@ cc._RF.push(module, '213e4Vn63lCGpmuUBE9Ipt6', 'GameOver');
 
 "use strict";
 
+var Config = require("Config");
 cc.Class({
     extends: cc.Component,
 

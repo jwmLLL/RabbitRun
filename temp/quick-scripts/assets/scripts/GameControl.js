@@ -11,6 +11,7 @@ var _UtilTool2 = _interopRequireDefault(_UtilTool);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var PropEnum = require("PropEnum");
+var Config = require("Config");
 
 cc.Class({
     extends: cc.Component,
@@ -36,27 +37,29 @@ cc.Class({
         this.player = this.playerNode.getComponent("Player");
 
         this.gameOver.active = false;
-
-        _UtilTool2.default.log("this.player.rabbit.getBoundingBoxToWorld()   " + this.player.rabbit.getBoundingBoxToWorld());
-        _UtilTool2.default.log("this.bgMove.propArr[i][j]   " + this.bgMove.propArr[0][4].getBoundingBoxToWorld());
     },
     startUpdate: function startUpdate() {
+        Config.totalScore = 0;
+        this.everyStep = 0;
         this.schedule(this.updateCollision.bind(this), 0.4);
+        this.bgMove.initProp();
     },
 
 
     btnClickEvent: function btnClickEvent(event, customData) {
-        console.log(" GameControl customData : " + customData);
+        // console.log(" GameControl customData : " + customData);
         switch (customData) {
             case 'jump_1':
                 this.bgMove.startMove(1);
+                this.everyStep = 1;
                 break;
             case 'jump_2':
                 this.bgMove.startMove(2);
+                this.everyStep = 2;
                 break;
         }
         this.player.rabbitJump(1);
-
+        Config.totalScore += this.everyStep;
         // return new Promise(function (resolve,reject) {
         //     if (true){
         //         resolve(value);
@@ -92,15 +95,20 @@ cc.Class({
                 break;
             case PropEnum.rottenWood:
                 _UtilTool2.default.log("碰到朽木");
-                this.unscheduleAllCallbacks();
-                this.gameOver.active = true;
+                this.gameResult();
                 break;
             case PropEnum.null:
                 _UtilTool2.default.log("碰到空的");
-                this.unscheduleAllCallbacks();
-                this.gameOver.active = true;
+                this.gameResult();
                 break;
         }
+    },
+    gameResult: function gameResult() {
+        this.unscheduleAllCallbacks();
+
+        Config.totalScore -= this.everyStep;
+        this.gameOver.getComponent("GameOver").label_score.string = "" + Config.totalScore;
+        this.gameOver.active = true;
     }
 });
 

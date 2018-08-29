@@ -14,4 +14,6 @@ Config.stepTime = 0.5;                          // 每步的时间
 Config.totalProp = 10;
 Config.propWidth = 128;
 
+Config.totalScore = 0;
+
 export default Config;
